@@ -3,7 +3,7 @@
 // data= fs.readdirSync('/');
 // console.log('data',data);
 
-// console.log('finished');
+ console.log('finished');
 
 // Asynchronous 
 
