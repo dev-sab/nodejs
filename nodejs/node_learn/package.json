@@ -1,15 +1,14 @@
 {
-  "name": "express",
+  "name": "node_learn",
   "version": "1.0.0",
-  "main": "main.js",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "ejs": "^2.5.2"
+  }
 }

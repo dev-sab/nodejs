@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <% include partials/page/head.ejs %>
+  </head>
+  <% include partials/page/header.ejs %>
+  <body class=<%= classname %>>
+  <div class="container">
+    <h1>Hello, world!</h1>
+    <p>
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+	<ul>
+
+	<% if(typeof(users)!== 'undefined'){%>
+		<% for (var i=0;i<users.length;i++)
+		{%>
+			<li><%= users[i] %></li>
+	    <%}
+	}%>	
+	</ul>
+	</div>
+
+	<% include partials/page/footer.ejs %>
+	<% include partials/page/jsdefaults.ejs %>
+  </body>
+</html>
+
