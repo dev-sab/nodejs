@@ -23,6 +23,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
+// Import data.jsom from here
+
+var data=require('./data.json');
+app.locals.appdata=data;
+
 //app.use('/users', users);
 
 // catch 404 and forward to error handler

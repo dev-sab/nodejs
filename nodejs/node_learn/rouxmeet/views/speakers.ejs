@@ -3,17 +3,14 @@
   <head>
 <% include partials/template/head.ejs %>
   </head>
-  <body class="<%= page %>">
+  <body>
   <% include partials/template/header.ejs %>
-  <% include partials/content/speakerlist.ejs %>
     <!-- <h1><%= title %></h1>
     <p>Welcome to <%= title %></p> -->
 
     <section class="layout">
     	<div class="primary">
-    		<% include partials/content/whoarewe.ejs %>
-    		<% include partials/content/getbusy.ejs %>
-    		<% include partials/content/whoshouldcome.ejs %>
+    	 <% include partials/content/speakerlist.ejs %>
     	</div>
     	<aside class="secondary">
     		<% include partials/content/nextmeet.ejs %>
